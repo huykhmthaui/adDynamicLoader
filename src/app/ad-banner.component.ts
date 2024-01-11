@@ -4,6 +4,8 @@ import { AdDirective } from './ad.directive';
 import { AdItem } from './ad-item';
 import { AdComponent } from './ad.component';
 
+// I add a comment
+
 @Component({
     selector: 'app-ad-banner',
     template: `
@@ -50,3 +52,5 @@ export class AdBannerComponent implements OnInit, OnDestroy {
         this.clearTimer = () => clearInterval(interval);
     }
 }
+
+// A super loooooooooooooooooooooooong comment
